@@ -4,6 +4,9 @@
        xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="airtel" class="com.swarudas.Airtel"></bean>
+    <bean id="sim" class="com.swarudas.Airtel">
+    	<property name="id" value="001" />
+    	<property name="size" value="MicroSIM" />
+    </bean>
 
 </beans>
